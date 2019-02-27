@@ -7,6 +7,18 @@
     <title>Socket Chat</title>
 </head>
 <body>
-    
+    <h1>The Chat</h1>
+    <form>
+        <span>Username: </span>
+        <input type="text" id="name"><br>
+        <span>Message</span>
+        <input type="text" id="msgBox"><br>
+        <button type="submit">Send</button>
+    </form>
+    <div>
+        <ul id="chatlog"></ul>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
